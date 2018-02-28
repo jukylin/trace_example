@@ -1,11 +1,11 @@
 package routers
 
 import (
-	"trace_example/components"
-	"trace_example/controllers"
 	"github.com/astaxie/beego"
-	"github.com/opentracing-contrib/go-stdlib/nethttp"
 	"github.com/hprose/hprose-golang/rpc"
+	"github.com/jukylin/trace_example/components"
+	"github.com/jukylin/trace_example/controllers"
+	"github.com/opentracing-contrib/go-stdlib/nethttp"
 )
 
 func init() {
